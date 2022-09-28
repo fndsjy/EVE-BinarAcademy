@@ -1,7 +1,7 @@
-# Binar: Challenge 04
+# Binar: EVE Challenge 04
 
-- Mulai modifikasi file `server/index.js` apabila ingin membuat HTTP server.
-- Mulai modifikasi folder `public` apabila ingin memodifikasi HTML.
+- Mulai membuat roating dengan menggunakan Express JS
+- Mulai mengubah file HTML menjadi file EJS sebagai View Engine
 
 # `Binar` class
 
@@ -34,6 +34,18 @@ Method `listCars` ini akan menerima fungsi yang mana harus mengembalikan `boolea
 Fungsi ini akan dijalankan untuk masing-masing item di dalam list of cars, yang mana jika nilainya `true`,
 maka akan ditampilkan di dalam list tersebut.
 
+# Install dependencies di Terminal secara satu per satu
+```typescript
+1. npm install express --save
+2. npm install ejs
+3. npm i nodemon
+```
+
+# Cara menjalankan di Terminal
+```typescript
+nodemon start
+```
+
 # Tips
 
-Just, hack it bro!
+Just, hack it with team bro!
